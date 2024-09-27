@@ -1,5 +1,3 @@
-import type { Metadata } from 'next'
-
 // These styles apply to every route in the application
 import '../app/globals.css'
 
