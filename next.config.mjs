@@ -1,8 +1,4 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-    images: {
-      domains: ['tailwindui.com'], // Add the domains you want to allow
-    },
-  };
+const nextConfig = {};
 
 export default nextConfig;
