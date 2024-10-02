@@ -36,9 +36,9 @@ export default function Body() {
         <div className="h-32 rounded-lg bg-gray-200"></div>
         <div className="flex justify-center items-center h-32 rounded-lg bg-gray-200 lg:col-span-2 ">
           
-          <div className="flex flex-col items-center justify-center min-h-screen">
-          <h1>Testing</h1>
-          <Submitbutton />
+          <div className="flex flex-col items-center">
+            <h1>Testing</h1>
+            <Submitbutton />
           </div>
 
         </div>
