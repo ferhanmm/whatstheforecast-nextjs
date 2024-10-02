@@ -2,7 +2,7 @@
 export function Submitbutton() {
   return (
     <a
-    className="group relative inline-flex items-center overflow-hidden rounded bg-indigo-600 px-8 py-3 text-white focus:outline-none focus:ring active:bg-indigo-500"
+    className="group relative inline-flex items-center overflow-hidden rounded bg-blue-900 px-8 py-3 text-white focus:outline-none focus:ring active:bg-indigo-500"
     href="#"
   >
     <span className="absolute -end-full transition-all group-hover:end-4">

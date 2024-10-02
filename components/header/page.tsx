@@ -6,7 +6,7 @@ export function Searchbar() {
       <input
         type="text"
         id="Search"
-        placeholder="chad@rhcp.com"
+        placeholder="Enter a city"
         className="w-full rounded-md border-gray-200 py-2.5 pe-10 shadow-sm sm:text-sm dark:border-gray-700 dark:bg-gray-800 dark:text-white"
       />
 
