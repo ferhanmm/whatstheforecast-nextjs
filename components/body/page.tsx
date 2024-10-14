@@ -31,19 +31,10 @@ export default function Body() {
   return (
     <div>
 
-      <div className="grid grid-cols-1 gap-4 lg:grid-cols-4 lg:gap-8">
-        <div className="h-32 rounded-lg bg-gray-200"></div>
-        <div className="flex justify-center items-center h-32 rounded-lg bg-gray-200 lg:col-span-2 ">
-          
-          <div className="flex flex-col items-center">
-            <h1>Testing</h1>
-            <Submitbutton />
-          </div>
-
-        </div>
-
-        <div className="h-32 rounded-lg bg-gray-200"></div>
-      </div>
+    <div className="grid grid-cols-5 grid-rows-5 gap-4">
+      <div className="col-span-3 row-span-5 col-start-2 rounded-full bg-gray-500">Weather</div>
+    </div>
+    
       
     </div>
   )
