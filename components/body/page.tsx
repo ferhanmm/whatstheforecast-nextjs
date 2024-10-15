@@ -37,7 +37,7 @@ export default function Body() {
         Left
       </div>
 
-      <div className="col-span-3 rounded-full bg-gray-400">
+      <div className="col-span-3 rounded-full bg-gray-400 p-10">
         Weather
       </div>
 
