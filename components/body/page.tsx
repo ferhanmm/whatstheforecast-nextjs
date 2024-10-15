@@ -32,9 +32,20 @@ export default function Body() {
     <div>
 
     <div className="grid grid-cols-5 grid-rows-5 gap-4">
-      <div className="col-span-3 row-span-5 col-start-2 rounded-full bg-gray-400">Weather</div>
+
+      <div className="col-span-1 bg-gray-500">
+        Left
+      </div>
+
+      <div className="col-span-3 rounded-full bg-gray-400">
+        Weather
+      </div>
+
+      <div className="col-span-1 bg-gray-500">
+        Right
+      </div>
+
     </div>
-    
       
     </div>
   )
