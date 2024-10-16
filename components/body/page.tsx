@@ -29,9 +29,9 @@ export function Submitbutton() {
 
 export default function Body() {
   return (
-    <div>
+    <div className="flex flex-grow justify-center">
 
-    <div className="grid xl:grid-cols-5 gap-4 mt-10 mx-10 mb-10">
+    <div className="grid xl:grid-cols-5 gap-4 m-10">
 
       <div className="hidden xl:block xl:col-span-1 bg-gray-500 rounded-2xl">
         Left
