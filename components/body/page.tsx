@@ -31,20 +31,20 @@ export default function Body() {
   return (
     <div>
 
-    <div className="grid lg:grid-cols-5 gap-4 mt-10 mx-10 mb-10">
+    <div className="grid xl:grid-cols-5 gap-4 mt-10 mx-10 mb-10">
 
-      <div className="hidden lg:block lg:col-span-1 bg-gray-500 rounded-2xl">
+      <div className="hidden xl:block xl:col-span-1 bg-gray-500 rounded-2xl">
         Left
       </div>
 
-      <div className="lg:col-span-3 lg:mt-0 bg-gray-400 p-10 rounded-2xl">
+      <div className="xl:col-span-3 xl:mt-0 bg-gray-400 p-10 rounded-2xl">
         <div className="text-center">
             <p>Weather</p>
             <p>Weather2</p>
         </div>
       </div>
 
-      <div className="hidden lg:block lg:col-span-1 bg-gray-500 rounded-2xl">
+      <div className="hidden xl:block xl:col-span-1 bg-gray-500 rounded-2xl">
         Right
       </div>
 
