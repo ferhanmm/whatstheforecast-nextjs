@@ -45,7 +45,7 @@ export default function Navbar() {
 
     <header className="bg-gray-800 dark:bg-gray-900">
 
-      <div className="flex justify-between items-center">
+      <div className="sm:flex sm:justify-between items-center justify-center grid content-center">
 
         <a className="m-10">
           <Image
@@ -56,6 +56,7 @@ export default function Navbar() {
             className="mr-20"
           />            
         </a>
+
         <div className="m-10">        
           <Searchbar/>
         </div>
