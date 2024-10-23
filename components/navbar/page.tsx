@@ -45,7 +45,7 @@ export default function Navbar() {
 
     <header className="bg-gray-800 dark:bg-gray-900">
 
-      <div className="sm:flex sm:justify-between items-center justify-center grid content-center">
+      <div className="flex justify-center sm:justify-between">
 
         <a className="m-10">
           <Image
@@ -53,7 +53,7 @@ export default function Navbar() {
             alt="Logo"
             width={150}
             height={100}
-            className="mr-20"
+            className=""
           />            
         </a>
 
