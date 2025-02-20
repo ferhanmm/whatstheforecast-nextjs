@@ -39,7 +39,7 @@ export default function Body() {
 
       <div className="xl:col-span-3 xl:mt-0 bg-gray-400 p-10 rounded-2xl">
         <div className="text-center">
-            <p>Weather</p>
+            <p>Weather1</p>
             <p>Weather2</p>
         </div>
       </div>
